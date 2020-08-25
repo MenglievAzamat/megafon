@@ -1,5 +1,7 @@
 <?php
 
+use App\Role;
+use App\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -11,6 +13,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UserSeeder::class);
+        $role = new Role([
+            'role' => 'ADMIN'
+        ]);
+
+        $user = new User([
+            'email' => 'admin@m.tj',
+            'password' => bcrypt('administrator')
+        ]);
+
+        $user->save();
+        $user->role()->save($role);
     }
 }

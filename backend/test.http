@@ -1,0 +1,29 @@
+POST http://megafon/api/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email" : "user@m.tj",
+    "password" : "secret"
+}
+
+###
+
+POST http://megafon/api/test
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGM0YjI3ZDI0MjMxODM3ZGIxYjg4YmJlZDNjMjFiMjE0NmU4ZTAxYTQ0OWM4OGNiNzhjOTU4MmEyMjI3Nzc2NjI0Zjk2YjI2MTRkZGY1MWUiLCJpYXQiOjE1OTgzNTUxNzIsIm5iZiI6MTU5ODM1NTE3MiwiZXhwIjoxNjI5ODkxMTcyLCJzdWIiOiIyIiwic2NvcGVzIjpbIlVTRVIiXX0.bUohjM9Qz1lRB3OYbft0zYHi_WdWtO7PudQ35XESpQJco-4WyIPB9X6k0cInTC-beF4mKdaYwxOgh7Zx-df7UKf3DYSft_iY3TaobaT44de_rm57WqlGN6rHXu-VhEqxW6k3IMvwjV6Hykxr6b7TV2iDcxm4e91wGjVbM7XAjHeg86U37ze1BSLQ04paZAOJ1dI9IX112OhZOU3XHZvoiUDw5YTNKySE8UYjx4fMtFpcFzODpmPy1YYeeAXjX8g1c0uL1_vc26SdGuFInRasBit3cKHwv1OqW_rucLbARt7ZnIn-zMj0RS_JG6i1MB-sCHlxHb1rlTGhR9r8gzAXMcWbxKDY4YFZnrbr67yvWJiG2-jOMAyf2CUOT5WrykpoBI_XmHjwi6FkbOlMttpvcbsF0aLMb04v2b-stwvjeFlaEhT9BmPEOooDKunu9pk9NucB-IrB8Z7aEPEHqDrm2mkwJWpg3PTaMYaGfzkJgf9t2jBTaJ0CU0t6WlW1gTh5u1rPDxcwGxlRYt7aY6BvcSPRAWU5lM1Rk0SjrpdKLKbsyrZTVPFCoc5UB2OmpSDvOqSzrfn-RrbwFN7g5YyLphyrMZ93UHSHUoJFgTGBDAVNFaXWtbq8yULWQNhdwrLRI2Hbn3QWLbpHOKpV-moLkIdFyeKFLMS0wdXe1uOtBSc
+
+###
+
+POST http://megafon/api/register
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email" : "user@m.tj",
+    "password" : "secret",
+    "password_confirmation" : "secret"
+}
+
+###

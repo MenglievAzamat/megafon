@@ -117,6 +117,19 @@
       <path value="$PROJECT_DIR$/backend/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/backend/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/backend/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/backend/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/backend/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/backend/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/backend/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/backend/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/backend/vendor/league/event" />
+      <path value="$PROJECT_DIR$/backend/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/backend/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/http-factory" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gaQHXTUkFiC6qs2quS5eP40fu7" />
@@ -124,9 +137,186 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="E:/Новая папка/OSPanel/domains/localhost" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://megafon/api/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGM0YjI3ZDI0MjMxODM3ZGIxYjg4YmJlZDNjMjFiMjE0NmU4ZTAxYTQ0OWM4OGNiNzhjOTU4MmEyMjI3Nzc2NjI0Zjk2YjI2MTRkZGY1MWUiLCJpYXQiOjE1OTgzNTUxNzIsIm5iZiI6MTU5ODM1NTE3MiwiZXhwIjoxNjI5ODkxMTcyLCJzdWIiOiIyIiwic2NvcGVzIjpbIlVTRVIiXX0.bUohjM9Qz1lRB3OYbft0zYHi_WdWtO7PudQ35XESpQJco-4WyIPB9X6k0cInTC-beF4mKdaYwxOgh7Zx-df7UKf3DYSft_iY3TaobaT44de_rm57WqlGN6rHXu-VhEqxW6k3IMvwjV6Hykxr6b7TV2iDcxm4e91wGjVbM7XAjHeg86U37ze1BSLQ04paZAOJ1dI9IX112OhZOU3XHZvoiUDw5YTNKySE8UYjx4fMtFpcFzODpmPy1YYeeAXjX8g1c0uL1_vc26SdGuFInRasBit3cKHwv1OqW_rucLbARt7ZnIn-zMj0RS_JG6i1MB-sCHlxHb1rlTGhR9r8gzAXMcWbxKDY4YFZnrbr67yvWJiG2-jOMAyf2CUOT5WrykpoBI_XmHjwi6FkbOlMttpvcbsF0aLMb04v2b-stwvjeFlaEhT9BmPEOooDKunu9pk9NucB-IrB8Z7aEPEHqDrm2mkwJWpg3PTaMYaGfzkJgf9t2jBTaJ0CU0t6WlW1gTh5u1rPDxcwGxlRYt7aY6BvcSPRAWU5lM1Rk0SjrpdKLKbsyrZTVPFCoc5UB2OmpSDvOqSzrfn-RrbwFN7g5YyLphyrMZ93UHSHUoJFgTGBDAVNFaXWtbq8yULWQNhdwrLRI2Hbn3QWLbpHOKpV-moLkIdFyeKFLMS0wdXe1uOtBSc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://megafon/api/login" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;email&quot; : &quot;user@m.tj&quot;,&#10;    &quot;password&quot; : &quot;secret&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://megafon/api/register" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;email&quot; : &quot;user@m.tj&quot;,&#10;    &quot;password&quot; : &quot;secret&quot;,&#10;    &quot;password_confirmation&quot; : &quot;secret&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://megafon/api/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNDE4YTI4Mzc1NDc1Y2Q1YWVkZDNmMGZhZGRkMTEwMmRlMjEzZTc0NGQzMGZmOTAwYzZmZmM0NmY2OWE5Y2JlOWNhNjIwN2IxN2NkMjgwZjkiLCJpYXQiOjE1OTgzNTQyNjEsIm5iZiI6MTU5ODM1NDI2MSwiZXhwIjoxNjI5ODkwMjYxLCJzdWIiOiIxIiwic2NvcGVzIjpbIkFETUlOIl19.DmVUuYhJ0mGlpKF1is7HQc8E6or2n90VSIekp9g0vum_9sDkuJSWxewBr_1xxGcPiwGyqzabRq8lljeBMP85D2zQmmPjVbiglkKm09KDZNHrAKwcq2LdEdHVMcCGbPOEpl-JF6LuIA1U-Ln3nIT1CEh60Mnfu4DbsLJQv2Xs6rbP3cVisdiGPZfb0FesWh4O7SFRNJVUXVMwUObVzJ92dh2ohde53j2gXePmk7goM9VhfGcYhWVNcUfuoRfVWm_Gu9Ev5w83ArfyrG4nvW6oTiOZ2zbtxvi8H6NlmXmXf5tT-_tJClq__GAeDqJFlBXDN6qrWGHn4wXcBljq5gj5V_lwLsCkC_nBbr0opk0Md8dqtT5xX3u8KOLQBTbrI-8-AWJ5u1_Ui64NYaoxJ0OkIHDv5GpLCzcMVZrId82MebwKtHDU7L0B8DauLBROlw1B5pBrTVk4fiD-yeJdw0W4RL8qRcpbHXAEqgtA3-6w8OWYxQyAL3FW9u6Iyz-_OdQmTbQ1Dobvlq0fJlOIAsVFESgUXjl1D5sa4Ffvg9lawaUMn4Ntp91gyN7dSI5jqSJ33WRws8l8gYK6Ade70JoyQYNZ6g-0gjE_K1p89ggEDyVMQBioj2J5wqYTIzV1cMRhauhnbRIhFNKyyLP-9OxTPvBHSEOwBkwW7RQsrUsvI20" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://megafon/api/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNDE4YTI4Mzc1NDc1Y2Q1YWVkZDNmMGZhZGRkMTEwMmRlMjEzZTc0NGQzMGZmOTAwYzZmZmM0NmY2OWE5Y2JlOWNhNjIwN2IxN2NkMjgwZjkiLCJpYXQiOjE1OTgzNTQyNjEsIm5iZiI6MTU5ODM1NDI2MSwiZXhwIjoxNjI5ODkwMjYxLCJzdWIiOiIxIiwic2NvcGVzIjpbIkFETUlOIl19.DmVUuYhJ0mGlpKF1is7HQc8E6or2n90VSIekp9g0vum_9sDkuJSWxewBr_1xxGcPiwGyqzabRq8lljeBMP85D2zQmmPjVbiglkKm09KDZNHrAKwcq2LdEdHVMcCGbPOEpl-JF6LuIA1U-Ln3nIT1CEh60Mnfu4DbsLJQv2Xs6rbP3cVisdiGPZfb0FesWh4O7SFRNJVUXVMwUObVzJ92dh2ohde53j2gXePmk7goM9VhfGcYhWVNcUfuoRfVWm_Gu9Ev5w83ArfyrG4nvW6oTiOZ2zbtxvi8H6NlmXmXf5tT-_tJClq__GAeDqJFlBXDN6qrWGHn4wXcBljq5gj5V_lwLsCkC_nBbr0opk0Md8dqtT5xX3u8KOLQBTbrI-8-AWJ5u1_Ui64NYaoxJ0OkIHDv5GpLCzcMVZrId82MebwKtHDU7L0B8DauLBROlw1B5pBrTVk4fiD-yeJdw0W4RL8qRcpbHXAEqgtA3-6w8OWYxQyAL3FW9u6Iyz-_OdQmTbQ1Dobvlq0fJlOIAsVFESgUXjl1D5sa4Ffvg9lawaUMn4Ntp91gyN7dSI5jqSJ33WRws8l8gYK6Ade70JoyQYNZ6g-0gjE_K1p89ggEDyVMQBioj2J5wqYTIzV1cMRhauhnbRIhFNKyyLP-9OxTPvBHSEOwBkwW7RQsrUsvI20" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://megafon/api/login" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;email&quot; : &quot;admin@m.tj&quot;,&#10;    &quot;password&quot; : &quot;administrator&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://megafon/api/test" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://megafon/login" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;email&quot; : &quot;admin@m.tj&quot;,&#10;    &quot;password&quot; : &quot;administrator&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,6 +330,24 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="HTTP Request.test#2">
+    <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/backend/test.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/backend/test.http" index="2">
+      <method v="2" />
+    </configuration>
+    <configuration name="test#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/backend/test.http" index="3">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.test#2" />
+        <item itemvalue="HTTP Request.test#1" />
+        <item itemvalue="HTTP Request.test#3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -150,7 +358,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598350138226</updated>
-      <workItem from="1598350150664" duration="230000" />
+      <workItem from="1598350150664" duration="5771000" />
     </task>
     <servers />
   </component>
