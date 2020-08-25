@@ -148,6 +148,36 @@
     <option name="REQUEST_HISTORY">
       <list>
         <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://megafon/api/logout" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjJhZTYzODdlMTBhMDY4YTE3YTI1NGRhMzg1YzJmMzlkOGZjNDgxNTE0NTRjODM2ZGI1YThhOTMzM2U3MThmOWEyYjVjN2ZiZjMxOWFlNzYiLCJpYXQiOjE1OTgzNTk1NTEsIm5iZiI6MTU5ODM1OTU1MSwiZXhwIjoxNjI5ODk1NTUxLCJzdWIiOiIxIiwic2NvcGVzIjpbIkFETUlOIl19.ekgfwFSEEFghQEGK7Ek1QJMTLxWceM-xwkSa7YKyVQk2VdPOS05oa5dnL8bEF4_abK-7cxgZiPLaA7O9N5STVBj9N68JnlA13iGYqGZiFtRyMUklbYJcoZf2ArsC6gGO-XLio9rza2I-bQUK3y5kaSj79FeJfUNfm-3msLDqtTYjPSj_Y7Miro0PgyUi7NkNvX_v7R-1z2B9J15F6QRweT21J5p94G_iT6riFw-2SjLku9yLgLIU9s9QYXoVfxNTYahAZb0zMUhGDIk8rByd38-DVnCVjpF6gn6T3cSFeCSWBHnqxM22HM6es5HtW9lUhBSDUCFDeMMToGB30scOKSxrAXohi2O2iepkHi9EVEJD7V8DI3P9EyNXouNyBWGo1-QIrKvjTvDjHzUYl9lGJ9TC2CEvcdlkybVI1eckwSh4p2NLOcxizeHuiv_PcIWabPcUD1Bs-YS8Heu8eEHmO3Kic0wd0qBWaRgFjgX8F_6Mke07RAYbl2EYkAo5s9yX6PEHhMANJBy1wpJoG2RBe-yWgH4rYYivZ4V5v-0L8X75cEDnxodO4PkHDkqY9fTgTichhzqLi3pe2i_3__KpO1-GJEpL58x7QINhDWWhA1czZp5lZGEBb4rncmkJxSKNKh9-hFez8SXVz3Yd7WXSKIDhlbqGMavi1ePkFU_4U1o" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://megafon/api/logout" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjJhZTYzODdlMTBhMDY4YTE3YTI1NGRhMzg1YzJmMzlkOGZjNDgxNTE0NTRjODM2ZGI1YThhOTMzM2U3MThmOWEyYjVjN2ZiZjMxOWFlNzYiLCJpYXQiOjE1OTgzNTk1NTEsIm5iZiI6MTU5ODM1OTU1MSwiZXhwIjoxNjI5ODk1NTUxLCJzdWIiOiIxIiwic2NvcGVzIjpbIkFETUlOIl19.ekgfwFSEEFghQEGK7Ek1QJMTLxWceM-xwkSa7YKyVQk2VdPOS05oa5dnL8bEF4_abK-7cxgZiPLaA7O9N5STVBj9N68JnlA13iGYqGZiFtRyMUklbYJcoZf2ArsC6gGO-XLio9rza2I-bQUK3y5kaSj79FeJfUNfm-3msLDqtTYjPSj_Y7Miro0PgyUi7NkNvX_v7R-1z2B9J15F6QRweT21J5p94G_iT6riFw-2SjLku9yLgLIU9s9QYXoVfxNTYahAZb0zMUhGDIk8rByd38-DVnCVjpF6gn6T3cSFeCSWBHnqxM22HM6es5HtW9lUhBSDUCFDeMMToGB30scOKSxrAXohi2O2iepkHi9EVEJD7V8DI3P9EyNXouNyBWGo1-QIrKvjTvDjHzUYl9lGJ9TC2CEvcdlkybVI1eckwSh4p2NLOcxizeHuiv_PcIWabPcUD1Bs-YS8Heu8eEHmO3Kic0wd0qBWaRgFjgX8F_6Mke07RAYbl2EYkAo5s9yX6PEHhMANJBy1wpJoG2RBe-yWgH4rYYivZ4V5v-0L8X75cEDnxodO4PkHDkqY9fTgTichhzqLi3pe2i_3__KpO1-GJEpL58x7QINhDWWhA1czZp5lZGEBb4rncmkJxSKNKh9-hFez8SXVz3Yd7WXSKIDhlbqGMavi1ePkFU_4U1o" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://megafon/api/test" />
           <option name="urlPath" value="" />
@@ -330,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.test#2">
+  <component name="RunManager" selected="HTTP Request.test#1">
     <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/backend/test.http">
       <method v="2" />
     </configuration>
@@ -342,8 +372,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.test#2" />
         <item itemvalue="HTTP Request.test#1" />
+        <item itemvalue="HTTP Request.test#2" />
         <item itemvalue="HTTP Request.test#3" />
       </list>
     </recent_temporary>
@@ -358,7 +388,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598350138226</updated>
-      <workItem from="1598350150664" duration="5771000" />
+      <workItem from="1598350150664" duration="10302000" />
     </task>
     <servers />
   </component>

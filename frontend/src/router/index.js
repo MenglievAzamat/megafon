@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Videos from "../views/Videos";
 
 Vue.use(VueRouter);
 
@@ -28,6 +29,23 @@ const routes = [
     meta: {
       type: "register"
     }
+  },
+  {
+    path: "/videos",
+    name: "videos",
+    component: Videos,
+    beforeEnter: (to, from, next) => {
+      if (localStorage.token) {
+        next();
+      } else {
+        next("/");
+      }
+    },
+    children: [
+      {
+        path: "/add"
+      }
+    ]
   }
 ];
 

@@ -32,4 +32,14 @@ a {
 .mb-2 {
   margin-bottom: 2rem;
 }
+
+.green-btn {
+  background: #4fff47 !important;
+  color: white !important;
+}
+
+.black-btn {
+  background: #333333 !important;
+  color: white !important;
+}
 </style>
