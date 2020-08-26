@@ -2,6 +2,10 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Videos from "../views/Videos";
+import VideosCategories from "../views/VideosCategories";
+import VideosCategory from "../views/VideosCategory";
+import VideoAdd from "../views/VideoAdd";
+import Admin from "../views/Admin";
 
 Vue.use(VueRouter);
 
@@ -43,9 +47,26 @@ const routes = [
     },
     children: [
       {
-        path: "/add"
+        path: "categories",
+        name: "videos-categories",
+        component: VideosCategories
+      },
+      {
+        path: "category/:id",
+        name: "videos-category",
+        component: VideosCategory
+      },
+      {
+        path: "add",
+        name: "video-add",
+        component: VideoAdd
       }
     ]
+  },
+  {
+    path: "/admin",
+    name: "admin",
+    component: Admin
   }
 ];
 

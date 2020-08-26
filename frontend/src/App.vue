@@ -1,8 +1,19 @@
 <template>
-  <div id="app">
+  <v-app>
     <router-view />
-  </div>
+  </v-app>
 </template>
+
+<script>
+export default {
+  name: "app",
+  mounted() {
+    if (localStorage.token && !this.$store.state.user) {
+      this.$store.dispatch("getUser");
+    }
+  }
+};
+</script>
 
 <style lang="scss">
 * {
@@ -41,5 +52,14 @@ a {
 .black-btn {
   background: #333333 !important;
   color: white !important;
+}
+
+.levitate {
+  transition: 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 </style>
